@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vacation</title>
+  </head>
+  <body>
+    <form action="form.php">
+      <h1>Summer vacation 2k25</h1>
+      <div>
+        <input type="text" placeholder="Enter your name" />
+        <br />
+        <input type="text" placeholder="Enter your section" />
+        <input type="text" placeholder="USN" />
+      </div>
+      <div>
+        <label for="male">
+          <input
+            type="radio"
+            name="Gender"
+            value="male"
+            id="Male1"
+            class="masculine"
+          />Male
+        </label>
+        <label for="female">
+          <input
+            type="radio"
+            name="Gender"
+            value="female"
+            id="Female1"
+            class="femenine"
+          />Female
+        </label>
+      </div>
+
+      <div>
+        <label for="want food">
+          <input
+            type="checkbox"
+            name="Want food"
+            id="checkbox1"
+            name="food"
+            class="food1"
+          />Want Food
+        </label>
+        <label for="want food">
+          <input
+            type="checkbox"
+            name="Dont Want food"
+            id="checkbox2"
+            name="food"
+            class="food2"
+          />Do not Want Food
+        </label>
+      </div>
+
+      <div>
+        <select name="Vehicle" id="Vehicle">
+          <option value="Vehicles">Pick vehicles</option>
+          <option value="Vehicles">Omni1</option>
+          <option value="Vehicles">Omni2</option>
+          <option value="Vehicles">Hiace</option>
+          <option value="Vehicles">Coaster</option>
+          <option value="Vehicles">Noah</option>
+          <option value="Vehicles">Rickshaw</option>
+        </select>
+      </div>
+      <div>
+        <h4>Your thought :</h4>
+        <textarea
+          name="Thought"
+          id="Thought"
+          rows="9"
+          cols="35"
+          placeholder="Why do you want to go?? Explain..."
+        ></textarea>
+      </div>
+    </form>
+  </body>
+</html>
